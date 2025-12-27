@@ -62,11 +62,14 @@
                     }
                     else if (inp == 2)
                     {
-
+                        SaleTransaction.ViewLastTransaction();
                     }
                     else if (inp == 3)
                     {
-
+                        if (SaleTransaction.HasLastTransaction && SaleTransaction.LastTransaction != null)
+                        {
+                            SaleTransaction.LastTransaction.CalculateProfitLoss();
+                        }
                     }
                 }
 
