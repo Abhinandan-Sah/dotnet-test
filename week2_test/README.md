@@ -1,4 +1,4 @@
-# Digital Petty Cash Ledger 💰
+# Digital Petty Cash Ledger
 
 hey! so this is basically a simple app to track petty cash - you know, those small expenses like tea, snacks, stationery and stuff.
 
@@ -20,7 +20,7 @@ made this using C# to practice OOP concepts like:
 
 ## Project Structure
 
-![Class Diagram](image.png)
+![Class Diagram](usecase-diagram.jpg)
 
 ### The Classes
 
