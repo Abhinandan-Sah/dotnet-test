@@ -18,7 +18,7 @@ made this using C# to practice OOP concepts like:
 - **interfaces** - IReportable makes sure everything can print a summary
 - **enums** - for categories and sources
 
-## Project Structure
+## Class Diagram
 
 ![Class Diagram](usecase-diagram.jpg)
 
@@ -54,6 +54,30 @@ you can use this test data:
 - add expense: $20 for Office Stationery
 - add expense: $15 for Team Snacks
 - check totals: should show $465 remaining
+
+### Quick Test Input
+
+if you wanna test fast, just copy paste these lines one by one:
+```
+1
+1
+500
+Replenishment from Main Office
+0
+2
+1
+20
+Office Stationery
+0
+2
+2
+15
+Team Snacks
+2
+4
+3
+5
+```
 
 ## What I Learned
 
