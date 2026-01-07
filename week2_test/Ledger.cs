@@ -25,25 +25,32 @@ using Transaction = week2_test.Transaction;
 
 namespace week2_test
 {
+    // generic ledger - can store income or expense transactions
+    // T has to be a Transaction type (or child of it)
     public class Ledger<T> where T : Transaction
     {
-        private List<T> transactions;
+        private List<T> transactions;  // stores all the transactions
 
+
+        // initialize empty list when ledger is created
         public Ledger()
         {
             transactions = new List<T>();
         }
 
+        // add new transaction to the list
         public void AddEntry(T entry)
         {
             transactions.Add(entry);
         }
 
+        // get transactions for a specific date
         public List<T> GetTransactionsByDate(DateTime date)
         {
             List<T> result = new List<T>();
             foreach(T transaction in transactions)
             {
+                // comparing only dates not time
                 if(transaction.Date.Date == date.Date)
                 {
                     result.Add(transaction);
@@ -53,14 +60,22 @@ namespace week2_test
             return result;
         }
 
+        // adds up all the amounts
         public decimal CalculateTotal()
         {
             decimal total =0;
 
+            // loop through and add each amount
             foreach(T transaction in transactions){
                 total += transaction.Amount;
             }
             return total;
+        }
+        
+        // returns the whole list of transactions
+        public List<T> GetTransactions()
+        {
+            return transactions;
         }
     }
 }

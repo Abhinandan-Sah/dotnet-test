@@ -1,12 +1,14 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.5.2.0
+# Visual Studio Version 18
+VisualStudioVersion = 18.1.11312.151 d18.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "week1_test", "week1_test", "{B794BA12-AFC8-C5A7-C097-4C8099A03646}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediSure_Clinic_Simple_Billing", "week1_test\MediSure_Clinic_Simple_Billing\MediSure_Clinic_Simple_Billing.csproj", "{F4387E86-B0FE-C01A-5FD5-AC99BF3028CA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickMart_Profit_Calculator", "week1_test\QuickMart_Profit_Calculator\QuickMart_Profit_Calculator.csproj", "{40EB4D39-DCE1-72CC-8291-62D6F6FE7FD3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "week2_test", "week2_test\week2_test.csproj", "{063EF838-F67A-46F8-B7BF-97C2C76D0D40}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -22,6 +24,10 @@ Global
 		{40EB4D39-DCE1-72CC-8291-62D6F6FE7FD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{40EB4D39-DCE1-72CC-8291-62D6F6FE7FD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{40EB4D39-DCE1-72CC-8291-62D6F6FE7FD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{063EF838-F67A-46F8-B7BF-97C2C76D0D40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{063EF838-F67A-46F8-B7BF-97C2C76D0D40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{063EF838-F67A-46F8-B7BF-97C2C76D0D40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{063EF838-F67A-46F8-B7BF-97C2C76D0D40}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
